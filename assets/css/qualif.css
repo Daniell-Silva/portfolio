@@ -1,0 +1,130 @@
+#qualification {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#qualification .content-quali {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#qualification .body-qual-title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+#qualification .text-title {
+    text-align: center;
+}
+
+#qualification .text-title h3 {
+    font-weight: 500;
+    color: #008dce;
+}
+
+#qualification .text-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0c0a5d;
+    margin-bottom: 10px;
+}
+
+.body-qual {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.body-education {
+    flex: 1;
+    /*min-width: 375px;*/
+}
+
+.title-educ {
+    display: flex;
+    align-items: center;
+}
+
+.body-qual .fa-briefcase,
+.body-qual .fa-graduation-cap {
+    margin-right: 5px;
+    font-size: 30px;
+} 
+
+.body-qual h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #0c0a5d;
+}
+
+.box-iten-educa {
+    border-left: 4px solid #008dce;
+    margin-right: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    position: relative;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 0 8px 8px 0;
+    min-width: 320px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.116);
+}
+
+.circle {
+    border: 1px solid #008dce;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: absolute;
+    left: -13px;
+    top: -8px;
+}
+.circle-int {
+    width: 16px;
+    height: 16px;
+    background-color: #008dce;
+    border-radius: 50px;
+}
+
+.body-qual h5 {
+    font-size: 20px;
+    color: #0c0a5d;
+    margin-bottom: -3px;
+    font-weight: 600;
+}
+
+.body-qual h6 {
+    font-weight: 500;
+    color: #50509e;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.body-qual p {
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(121, 121, 121);
+
+}
+
+.body-qual span {
+    display: block;
+    color: orange;  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.bady-experience {
+    flex: 1;
+}
+

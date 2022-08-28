@@ -1,0 +1,190 @@
+#portfolio {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-image: url("../image/background-about-my.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(241, 241, 241);
+}
+
+#portfolio .body-portfolio-title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+#portfolio .text-title {
+    text-align: center;
+}
+
+#portfolio .text-title h3 {
+    font-weight: 500;
+    color: #008dce;
+}
+
+#portfolio .text-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0c0a5d;
+    margin-bottom: 10px;
+}
+
+
+.menu-portfolio {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.menu-portfolio ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #0c0a5d;
+}
+
+.menu-portfolio ul li {
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.menu-portfolio ul li:hover {
+    color: orange;
+}
+
+#portfolio .list.active {
+    color: orange;
+}
+
+.protfolio-projetos
+
+.protfolio-projeto {
+    flex: 1;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.protfolio-projeto--info {
+    background-color: rgba(0, 0, 0, 0.329);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    z-index: 99;
+    transition: 0.1s;
+}
+
+.icons-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.protfolio-projeto--info .icon-portfolio .fa {
+    padding: 10px;
+    background-color: #fff;
+    color: #003f5c;
+    margin: 2px;
+    border-radius: 5px;   
+    cursor: pointer;
+    transition: 0.1s;
+}
+.protfolio-projeto--info .icon-portfolio .fa:hover {
+    background-color: rgba(255, 255, 255, 0.685);
+    color: #003f5c;
+}
+
+.protfolio-projeto--info .icons-portfolio span {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.protfolioProjetoArea:hover .protfolio-projeto--info {
+    height: 15%;
+    transition: 0.2s;
+}
+
+.protfolioProjetoArea.hide{
+    display: none;
+}
+
+.protfolioProjetoArea {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.protfolioProjetoArea .small_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgba(165, 165, 165, 0.644);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.protfolioProjetoArea:hover .small_img {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+.protfolioProjetoArea .icon-portfolio .icone-exp-1 {
+    width: 30px;
+
+
+}
+
+.areaBotao {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex: 1;
+}
+
+
+/*.btVerTodos {
+    background-color: #00aeff;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.btVerTodos:hover {
+    background-color: #49c5ff;
+    transition: 0.2s;
+}*/
+
+
+
+
+
+
